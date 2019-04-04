@@ -331,7 +331,7 @@ namespace helloworld
             */
 
 
-
+            /*
             // #####################-Login-Example-etc-#########################
             bool isReg = false;
 
@@ -394,32 +394,74 @@ namespace helloworld
                     break;
 
             }
+            
+    */
 
-
-
-
+            /*
+            
+            checkHighscore(300, "smith");
+            checkHighscore(200, "joe");
+            checkHighscore(310, "smith");
 
             Console.ReadLine();
+
 
 
             // #####################-VIDEO 9-#########################
         }
 
 
-
+        //Exercise
+        //Note: Varaibles are global
 
         public static void checkHighscore(int score, string playerName)
         {
             if(score > highscore)
             {
+                highscore = score; //update the highscore to the score
+                highscorePlayer = playerName; //and update highscoreplayer
+
                 Console.WriteLine("New highscore is " + score);
                   Console.WriteLine("New highscore holder is " + playerName);
             }
             else
             {
-                Console.WriteLine("The old highscore of " + highscore + " could not be broken and is still held by " + highscorePlayer.);
+                Console.WriteLine("The old highscore of " + highscore + " could not be broken and is still held by " + highscorePlayer);
             }
+            */
+
+            ternary();
         }
+
+
+        public static void ternary()
+        {
+
+            int temp = -5;
+            string matter;
+
+            if (temp < 0)
+            {
+                matter = "Frozen state";
+            }
+            else
+            {
+                matter = "liquid state";
+            }
+
+            //in short
+            matter = temp < 0 ? "Frozen state" : "liquid state";
+
+            temp = +20;
+
+            //OR
+            matter = temp < 0 ? "Frozen state" : "liquid state";
+
+
+            Console.WriteLine("The object is in a {0}",matter);
+            Console.Read();
+        }
+
 
 
     } 
