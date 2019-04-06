@@ -442,7 +442,10 @@ namespace helloworld
 
 
 
-             DoWhile();     //FOR AX3
+            // DoWhile();     //FOR AX3
+
+
+            // whiley();      //FOR AX4
 
         }
 
@@ -479,96 +482,137 @@ namespace helloworld
         */
 
 
-/* AX2
+        /* AX2
 
- LOOPS
+         LOOPS
 
-public static void loops()
-{
+        public static void loops()
+        {
 
-    for(int num = 1; num < 20; num+=2)
-    {
-        Console.WriteLine(num);
+            for(int num = 1; num < 20; num+=2)
+            {
+                Console.WriteLine(num);
+
+            }
+
+            Console.Read();
+        }
+        */
+
+
+        /*
+        //AX3
+        public static void DoWhile()
+        {
+
+        ***Stage 1***
+        int counter = 0;
+
+         do
+         {
+             Console.WriteLine(counter);
+             counter++;
+         } while (counter < 5);
+
+         Console.Read();
+
+
+        ***Stage 2***
+        int lenghtText = 0;
+        string nameText = "";
+
+        do
+        {
+            Console.WriteLine("Enter Friend Name: ");
+            string frdName = Console.ReadLine();
+            int namelenght = frdName.Length;
+            lenghtText += namelenght;
+            nameText += frdName;
+
+        } while (lenghtText < 15);
+
+        Console.WriteLine("Thats Enough " + nameText);
+
+        Console.Read();
+       //Thats Enough kevooSmitthpossy
+
+
+
+
+        //***Stage 3***
+
+        //Exercise 1 - Enter number of students, plus get grade of each student and calculate the average
+        //grade of students
+
+        int num = 0;
+
+        string grade = "";
+
+        int grade1 = 0;
+
+        int grade2;
+        Console.WriteLine("Number of students: ");
+        string numberS = Console.ReadLine();
+
+        do
+        {
+            Console.WriteLine("Enter Student Grade: ");
+            grade = Console.ReadLine();
+            grade1 += int.Parse(grade);
+            grade2 = grade1 / int.Parse(numberS);
+            num++;
+
+        } while (num < int.Parse(numberS));
+
+        Console.WriteLine("The Average grade is " + grade2);
+
+        Console.Read();
+
+
+
 
     }
 
-    Console.Read();
-}
-*/
 
 
+        // AX4
+        public static void whiley()
+        {
 
-//AX3
-            public static void DoWhile()
-            {
-            /*
-            ***Stage 1***
+            string take = "";
             int counter = 0;
 
-             do
-             {
-                 Console.WriteLine(counter);
-                 counter++;
-             } while (counter < 5);
+            while(take.Equals("") ){
+                Console.WriteLine("Press Enter to add data.");
+                take = Console.ReadLine();
 
-             Console.Read();
+                counter++;
+                Console.WriteLine("People count is {0}",counter);
 
-
-            ***Stage 2***
-            int lenghtText = 0;
-            string nameText = "";
-
-            do
-            {
-                Console.WriteLine("Enter Friend Name: ");
-                string frdName = Console.ReadLine();
-                int namelenght = frdName.Length;
-                lenghtText += namelenght;
-                nameText += frdName;
-
-            } while (lenghtText < 15);
-
-            Console.WriteLine("Thats Enough " + nameText);
+                if (take != "")
+                {
+                    Console.WriteLine("There are " + counter + " kids on the bus");
+                    break;
+                }
+            }
 
             Console.Read();
-           //Thats Enough kevooSmitthpossy
-
-
-            */
-
-            //***Stage 3***
-
-            //Exercise 1 - Enter number of students, plus get grade of each student and calculate the average
-            //grade of students
-
-            int num = 0;
-
-            string grade = "";
-
-            int grade1 = 0;
-
-            int grade2;
-            Console.WriteLine("Number of students: ");
-            string numberS = Console.ReadLine();
-
-            do
-            {
-                Console.WriteLine("Enter Student Grade: ");
-                grade = Console.ReadLine();
-                grade1 += int.Parse(grade);
-                grade2 = grade1 / int.Parse(numberS);
-                num++;
-
-            } while (num < int.Parse(numberS));
-
-            Console.WriteLine("The Average grade is " + grade2);
-
-            Console.Read();
-
-
-
 
         }
+               
+    */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
