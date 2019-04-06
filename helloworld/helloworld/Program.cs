@@ -430,11 +430,26 @@ namespace helloworld
             }
             */
 
-            ternary();
+
+
+
+            // ternary();   //FOR AX1
+
+
+
+
+            // loops();     //FOR AX2
+
+
+
+            DoWhile();
+
         }
 
 
-        public static void ternary()
+
+        //AX1 
+        /* public static void ternary()
         {
 
             int temp = -5;
@@ -455,14 +470,63 @@ namespace helloworld
             temp = +20;
 
             //OR
-            matter = temp < 0 ? "Frozen state" : "liquid state";
+            matter = temp > 100? "gas" : temp < 0 ? "Frozen state" : "liquid state";
 
 
             Console.WriteLine("The object is in a {0}",matter);
             Console.Read();
         }
+        */
 
 
+        /* AX2
+         
+         LOOPS
+
+        public static void loops()
+        {
+
+            for(int num = 1; num < 20; num+=2)
+            {
+                Console.WriteLine(num);
+                
+            }
+
+            Console.Read();
+        }
+        */
+
+        public static void DoWhile()
+        {
+            /* int counter = 0;
+
+             do
+             {
+                 Console.WriteLine(counter);
+                 counter++;
+             } while (counter < 5);
+
+             Console.Read();
+             */
+
+
+            int lenghtText = 0;
+            string nameText = "";
+
+            do
+            {
+                Console.WriteLine("Enter Friend Name: ");
+                string frdName = Console.ReadLine();
+                int namelenght = frdName.Length;
+                lenghtText += namelenght;
+                nameText += frdName;
+
+            } while (lenghtText < 15);
+
+            Console.WriteLine("Thats Enough");
+            Console.Read();
+
+        }
 
     } 
 
