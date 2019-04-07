@@ -436,8 +436,6 @@ namespace helloworld
             // ternary();   //FOR AX1
 
 
-
-
             // loops();     //FOR AX2
 
 
@@ -446,6 +444,24 @@ namespace helloworld
 
 
             // whiley();      //FOR AX4
+
+
+
+            //OOP
+
+           // -  Human Alex = new Human("Alexo",);
+
+            
+
+            //Alex.introName();
+
+
+            Human Joe = new Human("Joey", "Kishh");
+            Joe.introName();
+            Console.Read();
+
+
+
 
         }
 
