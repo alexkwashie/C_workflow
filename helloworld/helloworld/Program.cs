@@ -479,9 +479,11 @@ namespace helloworld
 
              //####################-OOP-#########################
 
-             */
+             
 
 
+            //Encupluslation
+            //####################-Properties-#########################
             box cube = new box();
             cube.Width = -2;
             cube.lenght = cube.Width;
@@ -497,6 +499,28 @@ namespace helloworld
 
             
             Console.Read();
+
+            
+
+
+            //Exersice
+            box cube1 = new box();
+
+            cube1.fntsurf(5, 3);
+
+            Console.WriteLine(cube1.FrontSurface);
+            Console.Read();
+
+            */
+
+
+            members jobby = new members();
+
+            jobby.Introducing(false);
+
+            Console.Read();
+
+
 
         }
 
