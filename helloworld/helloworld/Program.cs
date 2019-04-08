@@ -447,21 +447,56 @@ namespace helloworld
 
 
 
-            //OOP
+            //####################-OOP-#########################  //AX5
 
-           // -  Human Alex = new Human("Alexo",);
+            // -  Human Alex = new Human("Alexo",);
+
+            /* Alex.introName();
+
+
+             Human Joe = new Human("Joey", "Kishh", "Blue", 19);
+             Joe.introName();
+
+
+
+             Human kos = new Human("AKosua", "Bruwaa", "Green", 17);
+
+             kos.introName();
+
+
+             Human Ben = new Human("Ben", "Bra", "yellow");
+
+             Ben.introName();
+
+
+             Human kev = new Human();
+             kev.introName();
+
+
+             Human kiki = new Human("kiki", "johnson");
+             kiki.introName();
+             Console.Read();
+
+             //####################-OOP-#########################
+
+             */
+
+
+            box cube = new box();
+            cube.Width = -2;
+            cube.lenght = cube.Width;
+            cube.width = 13;
+            cube.volume = 5;
+
+            cube.Setsize(1);
+
+            cube.area = 3;
+
+            cube.calcVolume();
+
 
             
-
-            //Alex.introName();
-
-
-            Human Joe = new Human("Joey", "Kishh");
-            Joe.introName();
             Console.Read();
-
-
-
 
         }
 
