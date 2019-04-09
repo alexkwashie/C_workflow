@@ -40,7 +40,7 @@ namespace helloworld
 
 
 
-            //FOR EACH LOOPS
+            //FOR EACH LOOPS & LOOPS
             int[] nums = new int[10];
 
             for (int i = 0; i < 10; i++)
@@ -53,8 +53,86 @@ namespace helloworld
                 Console.WriteLine("Elements{0} = {1}", j, nums[j]);
             }
 
+            //OR use foreach loop
+            int counter = 0;
+            foreach (int k in nums)
+            {
+                Console.WriteLine("Elements{0} = {1}", counter, k); counter++;
 
+            }
             Console.WriteLine(nums);
+
+            string[] friends = { "kev", "jon", "roni", "uppa", "gop" };
+
+            int count = 0;
+
+            foreach (string name in friends)
+            {
+                Console.WriteLine("Goodmorning {0}", friends[count]);
+                count++;
+            }
+
+
+            //declare 2D Array
+            string[,] matrix;
+
+            //3D Array
+            int[,,] threeD;
+
+
+            int[,] array2D = new int[,]
+            {
+                {9,5,3}, //row 0
+                {4,5,2}, //row 1
+                {3,3,1}  //row 2
+            };
+
+
+            //access 2D array
+            Console.WriteLine(array2D[2, 1]);
+
+
+            string[,,] pixel = new string[,,]
+            {
+                {
+                    {"pew","mol","bon"},
+                    {"waf","ler","neq"},
+                    {"ewe","mdol","hen"}
+
+                },
+
+                {
+                    {"745","654","489"},
+                    {"213","222","512"},
+                    {"845","862","541"}
+
+                },
+                {
+                    {"542","456","584"},
+                    {"846","838","874"},
+                    {"545","895","524"}
+
+                }
+            };
+
+            Console.WriteLine(pixel[1, 1,2]);
+
+            //create a 2D Array
+            string[,] pixel1 = new string[3, 2]
+            {
+                {"one","two"},
+                { "four", "five"},
+                { "seven", "six"}
+            };
+
+            pixel1[1, 1] = "ten";
+
+            Console.WriteLine(pixel1[1,1]); //ten
+
+
+            //Check dimesions of Array
+            int dimensions = pixel.Rank;
+            Console.WriteLine(dimensions);
             Console.Read();
 
         }
