@@ -511,14 +511,24 @@ namespace helloworld
             Console.WriteLine(cube1.FrontSurface);
             Console.Read();
 
-            */
+            
 
-
+            //members.cs
             members jobby = new members();
 
             jobby.Introducing(false);
 
             Console.Read();
+            */
+
+
+
+
+            
+
+            array arrayz = new array();
+
+            arrayz.Arrats();
 
 
 
