@@ -80,6 +80,11 @@ namespace helloworld
             int[,,] threeD;
 
 
+            //Can also create 2D or 3D array like
+            int[,] free = { { 3,4,3 }, {5,3,2} };
+
+
+            //declare 2D Array
             int[,] array2D = new int[,]
             {
                 {9,5,3}, //row 0
@@ -130,9 +135,11 @@ namespace helloworld
             Console.WriteLine(pixel1[1,1]); //ten
 
 
-            //Check dimesions of Array
+            //Check dimesions of Array (Use the Rank keyword)
             int dimensions = pixel.Rank;
             Console.WriteLine(dimensions);
+
+
             Console.Read();
 
         }
