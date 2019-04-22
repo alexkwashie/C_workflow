@@ -523,14 +523,59 @@ namespace helloworld
 
 
 
-
-            
-
+            /*    
+             *array.cs*    
             array arrayz = new array();
 
             arrayz.Arrats();
+            */
 
 
+
+            /*
+             *  jagged_Arrays.cs*
+            jagged_Arrays jaggd = new jagged_Arrays();
+
+            jaggd.Jged();
+
+            */
+
+
+
+            
+           
+            // Array as a paramenter
+             
+            ArrayasParameters pramStu = new ArrayasParameters();
+
+            /*
+            int[] studentGrade = new int[] { 12, 14, 15, 20, 16 };
+
+             double avgResult = pramStu.Getaverage(studentGrade);
+
+            foreach (int grade in studentGrade)
+            {
+                Console.WriteLine("The grade is {0}", grade);
+            }
+
+            Console.WriteLine("The Average is {0}", avgResult);
+            Console.Read();
+
+            */
+
+
+
+            int[] happiness = new int[] { 13, 11, 43, 26, 55 };
+
+            int results = pramStu.Exercise(happiness);
+
+            foreach (int grade in happiness)
+            {
+                Console.WriteLine("The grade is {0}", results);
+            }
+
+            Console.WriteLine(results);
+            Console.Read();
 
         }
 
