@@ -24,19 +24,20 @@ namespace helloworld
         }
 
 
-        
-    
 
-        public void Exercise(int[] arrade)
-            {
-                int[] Calc = new int[] { };
 
-                for (int i = 0; i < arrade.Length; i++)
+
+        public int Exercise(int[] arrade)
+        {
+
+              for (int i = 0; i < arrade.Length; i++)
                 {
-                    arrade[i] += 2;
+                  int six = arrade[i] += 2;
                 }
 
-                
+            return six;
+
+
             }
 
     }
