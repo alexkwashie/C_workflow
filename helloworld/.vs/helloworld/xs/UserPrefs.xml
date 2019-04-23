@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{BF874B01-DA8D-47FC-9A4F-91772C94F24B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="helloworld/ArrayasParameter.cs">
+    <Files>
+      <File FileName="helloworld/Program.cs" Line="584" Column="1" />
+      <File FileName="helloworld/arraylist_.cs" Line="5" Column="2" />
+      <File FileName="helloworld/ArrayasParameter.cs" Line="41" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="helloworld" expanded="True">
+            <Node name="helloworld" expanded="True">
+              <Node name="ArrayasParameter.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.helloworld PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -23,22 +23,22 @@ namespace helloworld
             return average;
         }
 
+        /*
 
-
-
+        //Come Back to this later (Video 10)
 
         public int Exercise(int[] arrade)
-        {
+        { 
 
               for (int i = 0; i < arrade.Length; i++)
                 {
-                  int six = arrade[i] += 2;
+                  six = arrade[i] += 2;
                 }
 
-            return six;
+      }      
+    */
 
-
-            }
+       
 
     }
 }

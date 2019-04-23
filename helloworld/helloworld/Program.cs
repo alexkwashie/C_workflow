@@ -542,13 +542,14 @@ namespace helloworld
 
 
 
-            
-           
+
+
             // Array as a paramenter
-             
-            ArrayasParameters pramStu = new ArrayasParameters();
+
+
 
             /*
+             ArrayasParameters pramStu = new ArrayasParameters();
             int[] studentGrade = new int[] { 12, 14, 15, 20, 16 };
 
              double avgResult = pramStu.Getaverage(studentGrade);
@@ -563,11 +564,13 @@ namespace helloworld
 
             */
 
+            /*
+             * 
 
-
+            ArrayasParameters para1 = new ArrayasParameters();
             int[] happiness = new int[] { 13, 11, 43, 26, 55 };
 
-            int results = pramStu.Exercise(happiness);
+            int results = para1.Exercise(happiness);
 
             foreach (int grade in happiness)
             {
@@ -576,8 +579,18 @@ namespace helloworld
 
             Console.WriteLine(results);
             Console.Read();
+            */
+
+
+            Arraylist_ prambol = new Arraylist_();
+
+            prambol.Arrayss();
 
         }
+
+
+
+
 
 
 

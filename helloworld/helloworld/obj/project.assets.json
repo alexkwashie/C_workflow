@@ -478,7 +478,7 @@
       ]
     },
     "Microsoft.NETCore.DotNetAppHost/2.1.0": {
-      "sha512": "f/47I60Wg3SrveTvnecCQhCZCAMYlUujWF15EQ/AZTqF/54qeEJjbCIAxKcZI8ToUYzSg6JdfrHggsgjCyCE9Q==",
+      "sha512": "cZiASE81rksPJsGJ04hd/uEn6guNGAoqNsrzE/DP6AaNRPCHwTe6nZvHd4uAPj3MaVRQ3U0c6cRycMaHCYLPUQ==",
       "type": "package",
       "path": "microsoft.netcore.dotnetapphost/2.1.0",
       "files": [
@@ -688,30 +688,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\One\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/alexkwashie/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\One\\Dropbox\\newApp\\helloworld\\helloworld\\helloworld.csproj",
+      "projectUniqueName": "/Users/alexkwashie/Desktop/C_workflow/helloworld/helloworld/helloworld.csproj",
       "projectName": "helloworld",
-      "projectPath": "C:\\Users\\One\\Dropbox\\newApp\\helloworld\\helloworld\\helloworld.csproj",
-      "packagesPath": "C:\\Users\\One\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\One\\Dropbox\\newApp\\helloworld\\helloworld\\obj\\",
+      "projectPath": "/Users/alexkwashie/Desktop/C_workflow/helloworld/helloworld/helloworld.csproj",
+      "packagesPath": "/Users/alexkwashie/.nuget/packages/",
+      "outputPath": "/Users/alexkwashie/Desktop/C_workflow/helloworld/helloworld/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\One\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/alexkwashie/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
