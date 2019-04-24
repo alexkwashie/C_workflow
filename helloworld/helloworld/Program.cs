@@ -582,21 +582,24 @@ namespace helloworld
             */
 
 
+            /*
             Arraylist_ prambol = new Arraylist_();
 
             prambol.Arrayss();
+            */
 
 
 
+            //######################### - OPP Inheritance - ######################### 
 
-//######################### - OPP Inheritance - ######################### 
 
+            Post post1 = new Post("Thank for the Cocain man!", true, "Al Poco");
 
+            Console.WriteLine(post1.ToString());
+            Console.Read();
 
 
         }
-
-
 
 
 
