@@ -51,14 +51,18 @@ namespace helloworld
         }
 
 
+        /*Virtual method override of the ToString method that is inherited
+       from System.Object*/
+        // i. e. Convert values from methods to string
         public override string ToString()
         {
+            //return base.ToString()   //default
             return String.Format("{0} - {1}- by {2}", this.ID, this.title, this.SendUsername);
         }
 
+       
 
-
-
+        //Now Craete a new Class called "ImagePost"
 
 
     }
