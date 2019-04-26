@@ -57,7 +57,7 @@ namespace helloworld
         public override string ToString()
         {
             //return base.ToString()   //default
-            return String.Format("{0} - {1}- by {2}", this.ID, this.title, this.SendUsername);
+            return String.Format("{0} - {1} - by {2}", this.ID, this.title, this.SendUsername);
         }
 
        

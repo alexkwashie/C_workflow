@@ -591,14 +591,17 @@ namespace helloworld
 
 
             //######################### - OPP Inheritance - ######################### 
-
+            //Inheritance.cs
 
             Post post1 = new Post("Thank for the Cocain man!", true, "Al Poco");
 
             Console.WriteLine(post1.ToString());
+           
+
+            //Imagepost.cs
+            Imagepost img1= new Imagepost("I have uploaded the image", true, "httpS://image.com", "alo Popo ");
+            Console.WriteLine(img1.ToString());
             Console.Read();
-
-
         }
 
 
