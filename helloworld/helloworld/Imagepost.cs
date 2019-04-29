@@ -1,5 +1,7 @@
 ﻿using System;
 
+//this is the deriving class i.e it gets compenents from Inheritance.cs file
+
 namespace helloworld
 {
 

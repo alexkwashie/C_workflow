@@ -25,7 +25,7 @@ namespace helloworld
         public override string ToString()
         {
             //return base.ToString()   //default
-            return String.Format("{0} - {1} - {2} by {3}", this.ID, this.title, this.VideoURL, this.SendUsername);
+            return String.Format("{0} - {1} - {2}, {4} by {3}", this.ID, this.title, this.VideoURL,this.Length, this.SendUsername);
         }
 
     }

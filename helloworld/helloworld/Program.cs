@@ -596,11 +596,17 @@ namespace helloworld
             Post post1 = new Post("Thank for the Cocain man!", true, "Al Poco");
 
             Console.WriteLine(post1.ToString());
-           
+
 
             //Imagepost.cs
-            Imagepost img1= new Imagepost("I have uploaded the image", true, "httpS://image.com", "alo Popo ");
+            Imagepost img1 = new Imagepost("I have uploaded the image", true, "httpS://image.com", "alo Popo ");
             Console.WriteLine(img1.ToString());
+
+            //Videopost.cs
+            VideoPost video1 = new VideoPost("New house", "Sir Polo", "www.ONGYM.com", true , 4 );
+            Console.WriteLine(video1.ToString());
+
+
             Console.Read();
         }
 

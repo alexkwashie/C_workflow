@@ -2,6 +2,8 @@
 
 namespace helloworld
 {
+
+    //This is the Base class
     class Post
 
     {
