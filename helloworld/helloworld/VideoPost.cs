@@ -1,11 +1,35 @@
-﻿using System;
+﻿// CHALLENGE add a deriving Class "VideoPost" with a property VideoURL, Length. 
+
+// create the required constructors to create a VideoPost
+// adjust the ToString() method accordingly
+// create an instance of VideoPost and use the ToString method on it.
+
+
+// More advanced - use Timer and a Callback method here (google it :))
+// create fields as required
+// add member methods "Play" which should write the current duration of the video
+// and "Stop" which should stop the "timer" and write "stopped at {0}s" onto the console.
+// Play the video after creating the instance and stop it, when the user presses any key
+
+using System;
+using System.Threading;
+
 namespace helloworld
 {
 
     class VideoPost: Post
     {
+        //member fields
+        protected bool isPlaying = false;
+        protected int currDuration = 0;
+
+        Timer timer;
+
+
+        //Properties
        protected string VideoURL { get; set; }
         protected int Length { get; set; }
+
 
         public VideoPost() { }
 
@@ -27,6 +51,48 @@ namespace helloworld
             //return base.ToString()   //default
             return String.Format("{0} - {1} - {2}, {4} by {3}", this.ID, this.title, this.VideoURL,this.Length, this.SendUsername);
         }
+
+        public void play()
+        {
+            if (!isPlaying)
+            {
+                timer = new Timer(TimerCallback, null, 0, 1000);
+            }
+
+        }
+
+        //to be called byonly this object: make it private
+        private void TimerCallback(object o)
+        {
+            if (currDuration < Length)
+            {
+                currDuration++;
+                Console.WriteLine("Video at {0}s", currDuration);
+                GC.Collect();
+            }
+            else
+            {
+                stop();
+            }
+        }
+
+
+
+        public void stop()
+        {
+            if (isPlaying)
+            {
+                Console.WriteLine("Stopped at {0}", currDuration);
+                currDuration = 0;
+
+                //stop timer
+                timer.Dispose();
+            }
+                
+        }
+
+
+
 
     }
 }

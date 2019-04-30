@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{BF874B01-DA8D-47FC-9A4F-91772C94F24B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="helloworld/Imagepost.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="helloworld/VideoPost.cs">
     <Files>
-      <File FileName="helloworld/Program.cs" Line="600" Column="1" />
+      <File FileName="helloworld/Program.cs" Line="616" Column="1" />
       <File FileName="helloworld/Inheritance.cs" Line="6" Column="29" />
-      <File FileName="helloworld/Imagepost.cs" Line="3" Column="50" />
-      <File FileName="helloworld/VideoPost.cs" Line="11" Column="1" />
+      <File FileName="helloworld/Imagepost.cs" Line="31" Column="114" />
+      <File FileName="helloworld/VideoPost.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="helloworld" expanded="True">
             <Node name="helloworld" expanded="True">
-              <Node name="Imagepost.cs" selected="True" />
+              <Node name="VideoPost.cs" selected="True" />
             </Node>
           </Node>
         </State>

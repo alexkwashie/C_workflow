@@ -603,12 +603,25 @@ namespace helloworld
             Console.WriteLine(img1.ToString());
 
             //Videopost.cs
-            VideoPost video1 = new VideoPost("New house", "Sir Polo", "www.ONGYM.com", true , 4 );
+            VideoPost video1 = new VideoPost("Vlog Bease", "Asvro", "First-vlog.mp4", true , 4 );
             Console.WriteLine(video1.ToString());
 
 
+            video1.play();
+
+            Console.WriteLine("Enter any number to stop");
             Console.Read();
+
+
+            video1.stop();
+            
+
+
+
         }
+
+
+
 
 
 

@@ -15,6 +15,7 @@ namespace helloworld
         protected bool isPublic { get; set; }
         protected string SendUsername { get; set; }
 
+
         // Default constructor. If a derived class does not invoke a base-
         // class constructor explicitly, the default constructor is called implicity
 
