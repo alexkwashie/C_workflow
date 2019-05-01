@@ -33,6 +33,7 @@ namespace helloworld
 
         public VideoPost() { }
 
+
         public VideoPost(string title, string sendByUsername, string videoURL, bool isPublic, int length)
         {
             this.ID = GetNextID();
@@ -49,19 +50,22 @@ namespace helloworld
         public override string ToString()
         {
             //return base.ToString()   //default
-            return String.Format("{0} - {1} - {2}, {4} by {3}", this.ID, this.title, this.VideoURL,this.Length, this.SendUsername);
+            return String.Format("{0} - {1} - {2}, {4} by {3}", this.ID, this.title, this.Length, this.VideoURL,this.SendUsername);
         }
 
         public void play()
         {
             if (!isPlaying)
             {
-                timer = new Timer(TimerCallback, null, 0, 1000);
+                isPublic = true;
+                Console.WriteLine("Playing...");
+                timer = new Timer(TimerCallback, null, 1, 1000);
             }
 
         }
 
-        //to be called byonly this object: make it private
+        //to be called by only this object: make it private
+        //The timer method allows you to run a block of code over a set period eg. 1000 (every 1sec)
         private void TimerCallback(object o)
         {
             if (currDuration < Length)
@@ -82,6 +86,7 @@ namespace helloworld
         {
             if (isPlaying)
             {
+                isPlaying = false;
                 Console.WriteLine("Stopped at {0}", currDuration);
                 currDuration = 0;
 

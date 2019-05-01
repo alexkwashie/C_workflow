@@ -603,19 +603,20 @@ namespace helloworld
             Console.WriteLine(img1.ToString());
 
             //Videopost.cs
-            VideoPost video1 = new VideoPost("Vlog Bease", "Asvro", "First-vlog.mp4", true , 4 );
+            VideoPost video1 = new VideoPost("Vlog Bease", "Asvro", "First-vlogs.mp4", true , 20 );
             Console.WriteLine(video1.ToString());
+
+
+
 
 
             video1.play();
 
-            Console.WriteLine("Enter any number to stop");
-            Console.Read();
-
-
+            Console.WriteLine("juww");
+            Console.ReadKey();
             video1.stop();
-            
 
+            Console.ReadLine();
 
 
         }
