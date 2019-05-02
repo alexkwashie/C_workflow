@@ -586,12 +586,15 @@ namespace helloworld
             Arraylist_ prambol = new Arraylist_();
 
             prambol.Arrayss();
-            */
+           
 
 
 
             //######################### - OPP Inheritance - ######################### 
-            //Inheritance.cs
+            //Inheritance.cs - Base class
+            //Imagepost.cs - deriving Class
+            //VideoPost.cs - derivingn Class
+
 
             Post post1 = new Post("Thank for the Cocain man!", true, "Al Poco");
 
@@ -617,8 +620,34 @@ namespace helloworld
             video1.stop();
 
             Console.ReadLine();
+            //######################### - OPP Inheritance - ######################### 
+                       
+             */
 
 
+            //######################### - OPP Inheritance %Part 2%- ######################### 
+            //Employee.cs - Base class
+            //CompanyCar.cs - deriving Class
+            //Trainee.cs - derivingn Class
+
+
+            Employee alex = new Employee("Alex", "Loppo", 700099);
+
+            Console.WriteLine(alex.ToString());
+
+            alex.work();
+
+
+            Boss Alli = new Boss("Jaguar", "Ali", "Babab", 300000);
+            Console.WriteLine(Alli.ToString());
+            Alli.Lead();
+
+
+            Trainee john = new Trainee("9 to 5","john", "Doe", 20000, 8);
+            Console.WriteLine(john.ToString());
+            john.work();
+            john.Learn();
+            Console.Read();
         }
 
 

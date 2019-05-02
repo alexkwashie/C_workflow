@@ -8,13 +8,16 @@ namespace helloworld
         protected string LastName { get; set; }
         protected int Salary { get; set; }
 
+
+        //Constructor
         public Employee()
         {
             FirstName = "John";
             LastName = "Sherren";
             Salary = 32555;
         }
-        //Constructor
+
+
         public Employee( string firstName , string lastName, int salary)
         {
             this.FirstName = firstName;
