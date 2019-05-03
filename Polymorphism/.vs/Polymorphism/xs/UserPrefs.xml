@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{10BA5770-AF7C-41C4-B893-78BC0AB74DE4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Polymorphism FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BMW.cs">
+    <Files>
+      <File FileName="Program.cs" Line="9" Column="67" />
+      <File FileName="Car.cs" Line="29" Column="50" />
+      <File FileName="BMW.cs" Line="3" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Polymorphism" expanded="True">
+            <Node name="Polymorphism" expanded="True">
+              <Node name="BMW.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

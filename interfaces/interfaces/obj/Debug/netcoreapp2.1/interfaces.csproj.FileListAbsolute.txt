@@ -1,0 +1,11 @@
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/bin/Debug/netcoreapp2.1/interfaces.deps.json
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/bin/Debug/netcoreapp2.1/interfaces.runtimeconfig.json
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/bin/Debug/netcoreapp2.1/interfaces.runtimeconfig.dev.json
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/bin/Debug/netcoreapp2.1/interfaces.dll
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/bin/Debug/netcoreapp2.1/interfaces.pdb
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.csprojAssemblyReference.cache
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.csproj.CoreCompileInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.AssemblyInfoInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.AssemblyInfo.cs
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.dll
+/Users/alexkwashie/Desktop/C_workflow/interfaces/interfaces/obj/Debug/netcoreapp2.1/interfaces.pdb
