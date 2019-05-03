@@ -625,13 +625,13 @@ namespace helloworld
              */
 
 
-            //######################### - OPP Inheritance %Part 2%- ######################### 
+            //######################### - OPP Inheritance %Part 2% - ######################### 
             //Employee.cs - Base class
             //CompanyCar.cs - deriving Class
-            //Trainee.cs - derivingn Class
+            //Trainee.cs - deriving Class
 
 
-            Employee alex = new Employee("Alex", "Loppo", 700099);
+            Employee alex = new Employee();
 
             Console.WriteLine(alex.ToString());
 
@@ -645,7 +645,7 @@ namespace helloworld
 
             Trainee john = new Trainee("9 to 5","john", "Doe", 20000, 8);
             Console.WriteLine(john.ToString());
-            john.work();
+            john.work(); //this is inherited from the Employee.cs base class
             john.Learn();
             Console.Read();
         }

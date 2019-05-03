@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace helloworld
 {
     class Trainee: Employee
