@@ -8,25 +8,31 @@ namespace Polymorphism
 class Car
     {
 
-        protected string HP { get; set; }
+        protected int HP { get; set; }
         protected string Color { get; set; }
 
 
-        public void CarProp(string myHP, string myColor)
+        public Car(int hp, string color)
         {
-            this.HP = myHP;
-            this.Color = myColor;
+            this.HP = hp;
+            this.Color = color;
         }
 
-
-        public void showDetails()
+        //Polymorphism - the (virual) keyword allows this method to be overwritten
+        public virtual void showDetails()
         {
-            Console.WriteLine("My car is {0} and color is {1}", HP, Color);
+            Console.WriteLine("My car has  {0} HP and color is {1}", HP, Color);
         }
 
         public void Repair()
         {
             Console.WriteLine("Car was repaired!");
+        }
+
+        //Polymorphism - the (virual) keyword allows this method to be overwritten
+        public virtual void showDetailz()
+        {
+            Console.WriteLine("carry go");
         }
     }
 }
