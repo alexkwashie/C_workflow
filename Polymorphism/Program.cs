@@ -18,10 +18,11 @@ namespace Polymorphism
         static void Main(string[] args)
         {
 
-            BMW Bms = new BMW(800, "dd", "df", "BMW");
+            //base can call any function of deriving class
+            Car Bmw = new BMW(800, "290i", "grey", "BMW");
            
-            Bms.showDetails();
-            Bms.showDetailz();
+            Bmw.showDetails();
+            Bmw.showDetailz();
 
             //Create a list of cars
             var cars = new List<Car>
@@ -30,11 +31,27 @@ namespace Polymorphism
                 new Audi(700, "Green","RS7", "Audi")
             };
 
-            
+            //loop through list to get showdetails() of each object
             foreach (var ride in cars)
             {
-                ride.showDetails();
+                //ride.showDetails();
             }
+
+
+            Car Benz = new Car(300, "Purple");
+
+            //Benz.CarDetails();
+
+
+
+            BMW benz = new BMW(450,"Blue","C63","Merc");
+
+            //benz.CarDetails();
+
+
+            //to show content of base clas on deriving member
+            Car carb = (Car)Bmw;
+            carb.CarDetails();
 
             Console.ReadKey();
         }

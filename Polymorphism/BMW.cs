@@ -10,7 +10,7 @@ namespace Polymorphism
 
         //After th main tmethod in the base clas is (virtual)
         //Use (override) to overwrite it
-        public override void showDetails()
+        public virtual void showDetails()
         {
             Console.WriteLine("{3}-M car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
         }
@@ -22,11 +22,17 @@ namespace Polymorphism
         }
 
 
-        //After th main tmethod in the base clas is (virtual)
+        //After the main method in the base class is (virtual)
         //Use (override) to overwrite it
         public override void showDetailz()
         {
             Console.WriteLine("I have a {0}", Model);
+        }
+
+
+        public override void CarDetails()
+        {
+            Console.WriteLine("From BMW class -My car is a color {0} and it has {1} HP - Model: {2} - Brand: {3}", Color, HP, Model, Brand);
         }
     }
 }
