@@ -54,6 +54,11 @@ namespace Polymorphism
 
             carb.CarDetails();
 
+
+            Rs7_subclassAudi_ Rs7 = new Rs7_subclassAudi_(890, "Indigo", "RS77", "S-Line");
+
+            Rs7.showNews();
+
             Console.ReadKey();
         }
     }

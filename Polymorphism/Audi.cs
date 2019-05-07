@@ -6,7 +6,7 @@ namespace Polymorphism
 
             public string Model { get; set; }
 
-            private string Brand = "Audi";
+            public string Brand = "Audi";
 
 
         //The (new) means this 'showDetails()' has priority over the 'Car.showDetails()'
@@ -15,7 +15,14 @@ namespace Polymorphism
                 Console.WriteLine("{3} - My car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
             }
 
-            public Audi(int hp, string color, string Model, string brand) : base(hp, color)
+
+        public sealed override void showNews()
+        {
+            Console.WriteLine("{3} - My car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
+        }
+
+
+        public Audi(int hp, string color, string Model, string brand) : base(hp, color)
             {
                 this.Model = Model;
                 this.Brand = brand;

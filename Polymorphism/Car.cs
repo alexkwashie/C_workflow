@@ -5,7 +5,7 @@ namespace Polymorphism
 {
 
 
-class Car
+    class Car
     {
 
         protected int HP { get; set; }
@@ -39,5 +39,17 @@ class Car
         {
             Console.WriteLine("My car is a color {0} and it has {1} HP - from base class", Color, HP);
         }
+
+        //Default Contructor - use when derving class has error
+        public Car()
+        {
+
+        }
+
+        public virtual void showNews()
+        {
+        }
     }
+
+
 }
