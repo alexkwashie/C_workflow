@@ -19,7 +19,7 @@ class Car
         }
 
         //Polymorphism - the (virual) keyword allows this method to be overwritten
-        public void showDetails()
+        public virtual void showDetails()
         {
             Console.WriteLine("My car has  {0} HP and color is {1}", HP, Color);
         }
@@ -35,7 +35,7 @@ class Car
             Console.WriteLine("carry go");
         }
 
-        public new void CarDetails()
+        public virtual void CarDetails()
         {
             Console.WriteLine("My car is a color {0} and it has {1} HP - from base class", Color, HP);
         }

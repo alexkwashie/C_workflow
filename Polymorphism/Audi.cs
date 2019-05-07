@@ -9,7 +9,8 @@ namespace Polymorphism
             private string Brand = "Audi";
 
 
-            public void showDetails()
+        //The (new) means this 'showDetails()' has priority over the 'Car.showDetails()'
+        public new void showDetails()
             {
                 Console.WriteLine("{3} - My car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
             }
@@ -21,7 +22,7 @@ namespace Polymorphism
            
             }
 
-        //After th main tmethod in the base clas is (virtual)
+        //After the main the method in the base class is (virtual)
         //Use (override) to overwrite it
         public override void showDetailz()
             {

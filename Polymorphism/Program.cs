@@ -49,8 +49,9 @@ namespace Polymorphism
             //benz.CarDetails();
 
 
-            //to show content of base clas on deriving member
-            Car carb = (Car)Bmw;
+            //to show content of base class on deriving member
+            Car carb = (Car)benz;
+
             carb.CarDetails();
 
             Console.ReadKey();
