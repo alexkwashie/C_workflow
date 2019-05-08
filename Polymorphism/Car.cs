@@ -18,6 +18,27 @@ namespace Polymorphism
             this.Color = color;
         }
 
+
+        //Has a relationship
+        protected CarIDInfo carIDInfo = new CarIDInfo();
+
+
+        public void SetCarID(int idNum, string carOwner)
+        {
+            carIDInfo.IDNum = idNum;
+            carIDInfo.Owner = carOwner;
+        }
+
+
+        public void GetCarIDinfo()
+        {
+            Console.WriteLine("The Car ID no.:{0} and its owned by: {1}", carIDInfo.IDNum, carIDInfo.Owner);
+        }
+
+
+
+
+
         //Polymorphism - the (virual) keyword allows this method to be overwritten
         public virtual void showDetails()
         {

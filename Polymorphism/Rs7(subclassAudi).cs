@@ -3,9 +3,11 @@
 // ##################################### -Sealed Key Word- #####################################
 
     //A sealed class does not allow use in a deriving class
+    //See use in Audi class (Audi.cs)
+
 namespace Polymorphism
 {
-    class Rs7_subclassAudi_:Audi
+    class Rs7_subclassAudi_: Audi
     {
 
         public Rs7_subclassAudi_(int hp, string color, string Model, string brand) : base(hp, color,Model, brand)

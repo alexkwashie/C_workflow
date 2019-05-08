@@ -55,9 +55,19 @@ namespace Polymorphism
             carb.CarDetails();
 
 
+            //######## - SEALED - ######
+            //Rs7_subclassAudi_.cs
+
             Rs7_subclassAudi_ Rs7 = new Rs7_subclassAudi_(890, "Indigo", "RS77", "S-Line");
 
             Rs7.showNews();
+
+
+            //Works on oly new classes created here
+            Bmw.SetCarID(32, "Mr. Amponsah");
+
+            Bmw.GetCarIDinfo();
+
 
             Console.ReadKey();
         }

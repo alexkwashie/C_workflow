@@ -15,8 +15,8 @@ namespace Polymorphism
                 Console.WriteLine("{3} - My car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
             }
 
-
-        public sealed override void showNews()
+        //public sealed override void showNews() ##- The sealed keyword does not allow a method to be inherited or used -##
+        public override void showNews()
         {
             Console.WriteLine("{3} - My car has {2} - {0} HP and color is {1}", HP, Color, Brand, Model);
         }
