@@ -19,21 +19,21 @@ namespace Polymorphism
         }
 
 
-        //Has a relationship
-        protected CarIDInfo carIDInfo = new CarIDInfo();
+                //Has a relationship - Acts as a aggregator for the Car class
+                protected CarIDInfo carIDInfo = new CarIDInfo();
 
 
-        public void SetCarID(int idNum, string carOwner)
-        {
-            carIDInfo.IDNum = idNum;
-            carIDInfo.Owner = carOwner;
-        }
+                public void SetCarID(int idNum, string carOwner)
+                {
+                    carIDInfo.IDNum = idNum;
+                    carIDInfo.Owner = carOwner;
+                }
 
 
-        public void GetCarIDinfo()
-        {
-            Console.WriteLine("The Car ID no.:{0} and its owned by: {1}", carIDInfo.IDNum, carIDInfo.Owner);
-        }
+                public void GetCarIDinfo()
+                {
+                   Console.WriteLine("The Car ID no.:{0} and its owned by: {1}", carIDInfo.IDNum, carIDInfo.Owner);
+                }
 
 
 

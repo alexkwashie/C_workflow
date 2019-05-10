@@ -63,8 +63,11 @@ namespace Polymorphism
             Rs7.showNews();
 
 
+            //Has A Relationship
+
             //Works on oly new classes created here
             Bmw.SetCarID(32, "Mr. Amponsah");
+
 
             Bmw.GetCarIDinfo();
 
