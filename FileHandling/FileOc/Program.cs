@@ -7,6 +7,18 @@ namespace FileOc
     {
         static void Main(string[] args)
         {
+
+            /*
+            //Read .txt on Windows
+
+            string text = System.IO.File.ReadAllText(@"Users/alexkwashie/Desktop/C_workflow/Filehandling/cat.txt");
+
+            Console.WriteLine(text);
+
+            string[] lines = System.IO.File
+            */
+
+
             //Read .txt on Mac
             var path = "/Users/alexkwashie/Desktop/C_workflow/Filehandling/cat.txt";
 
@@ -17,13 +29,7 @@ namespace FileOc
             Console.ReadKey();
 
 
-            /*
-            //Read .txt on Windows
 
-            string text = System.IO.File.ReadAllText(@"Users/alexkwashie/Desktop/C_workflow/Filehandling/cat.txt");
-
-            Console.WriteLine(text);
-            */
 
 
 
