@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LambdaC
 {
@@ -14,6 +15,8 @@ namespace LambdaC
 
         public delegate int SomeMath(int i);
 
+
+
         static void Main(string[] args)
         {
 
@@ -25,9 +28,22 @@ namespace LambdaC
         public static void DoSomething()
         {
             SomeMath calc = new SomeMath(Square);
+            //(calc) becomes SomeMath(Square(int i))
 
             Console.WriteLine(calc(9));
 
+
+            List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            List<int> evenNumbers = list.FindAll(delegate (int i)
+            {
+                return (i % 2 == 0);
+
+            }); 
+
+            foreach (var item in evenNumbers)
+            {
+                Console.WriteLine(item);
+            }
         }
 
 
@@ -41,7 +57,7 @@ namespace LambdaC
 
         public static int Square(int i)
         {
-            return i + 1;
+            return i * i;
         }
 
 
