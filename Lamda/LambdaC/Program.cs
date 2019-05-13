@@ -15,7 +15,7 @@ namespace LambdaC
 
         public delegate int SomeMath(int i);
 
-
+        public delegate bool Compare(int a, Number t);
 
         static void Main(string[] args)
         {
@@ -37,6 +37,7 @@ namespace LambdaC
             List<int> evenNumbers = list.FindAll(delegate (int i)
             {
                 return (i % 2 == 0);
+                // or for Oddnumbers = ( return (i % 2 == 1))
 
             }); 
 
@@ -44,6 +45,30 @@ namespace LambdaC
             {
                 Console.WriteLine(item);
             }
+
+
+            //####Using Lamda functions
+
+            List<int> oddNumbers = list.FindAll(i=>i % 2 == 1);
+            oddNumbers.ForEach(i =>
+            {
+                Console.WriteLine("Odd number is: ");
+                Console.WriteLine(i);
+        });
+
+
+
+
+            calc = new SomeMath(x => x * x * x);
+
+            Console.WriteLine(calc(8));
+
+
+            //####Using Lamda functions
+            Compare Grades = (a, number ) => a == number.t;
+
+            Console.WriteLine(Grades(6,new Number { t = 6 }));
+
         }
 
 
