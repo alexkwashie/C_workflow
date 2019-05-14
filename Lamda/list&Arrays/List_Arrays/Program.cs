@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace List_Arrays
 {
+
+    //Lists can contain only specific objects eg: <int> or <String>
+    // ArrayList can contain a mixture of objects
+
     class Program
     {
         static void Main(string[] args)
@@ -37,9 +41,38 @@ namespace List_Arrays
             //Remove at the index
             list.RemoveAt(index);
 
+
             //Using Lambda in lists
             list.ForEach(i => Console.WriteLine(i));
 
+
+            //Using array list
+            System.Collections.ArrayList arrayList = new System.Collections.ArrayList();
+
+            arrayList.Add(1);
+            arrayList.Add("Six");
+            arrayList.Add("3");
+            arrayList.Add(new Number { n = 9});
+
+            foreach (object obj in arrayList)
+            {
+                Console.WriteLine(obj);
+            }
+
+            Console.Read();
+
         }
     }
+
+    class Number
+    {
+        public int n { get; set; }
+
+        public override string ToString()
+        {
+            return n.ToString();
+        }
+    }
+
+
 }

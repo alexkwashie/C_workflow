@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/List_Arrays.csproj",
-      "projectName": "List_Arrays",
-      "projectPath": "/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/List_Arrays.csproj",
+      "projectUniqueName": "/Users/alexkwashie/Desktop/C_workflow/Lamda/Structs/Structs/Structs.csproj",
+      "projectName": "Structs",
+      "projectPath": "/Users/alexkwashie/Desktop/C_workflow/Lamda/Structs/Structs/Structs.csproj",
       "packagesPath": "/Users/alexkwashie/.nuget/packages/",
-      "outputPath": "/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/",
+      "outputPath": "/Users/alexkwashie/Desktop/C_workflow/Lamda/Structs/Structs/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

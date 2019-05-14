@@ -9,14 +9,3 @@
 /Users/alexkwashie/Desktop/C_workflow/Lamda/LambdaC/obj/Debug/netcoreapp2.1/LambdaC.AssemblyInfo.cs
 /Users/alexkwashie/Desktop/C_workflow/Lamda/LambdaC/obj/Debug/netcoreapp2.1/LambdaC.dll
 /Users/alexkwashie/Desktop/C_workflow/Lamda/LambdaC/obj/Debug/netcoreapp2.1/LambdaC.pdb
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\bin\Debug\netcoreapp2.1\LambdaC.deps.json
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\bin\Debug\netcoreapp2.1\LambdaC.runtimeconfig.json
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\bin\Debug\netcoreapp2.1\LambdaC.runtimeconfig.dev.json
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\bin\Debug\netcoreapp2.1\LambdaC.dll
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\bin\Debug\netcoreapp2.1\LambdaC.pdb
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.csprojAssemblyReference.cache
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.csproj.CoreCompileInputs.cache
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.AssemblyInfoInputs.cache
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.AssemblyInfo.cs
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.dll
-C:\Users\One\Dropbox\C_workflow\Lamda\LambdaC\obj\Debug\netcoreapp2.1\LambdaC.pdb
