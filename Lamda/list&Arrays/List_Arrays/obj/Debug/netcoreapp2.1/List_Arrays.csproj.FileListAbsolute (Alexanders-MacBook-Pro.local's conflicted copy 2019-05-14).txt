@@ -1,0 +1,11 @@
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/bin/Debug/netcoreapp2.1/List_Arrays.deps.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/bin/Debug/netcoreapp2.1/List_Arrays.runtimeconfig.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/bin/Debug/netcoreapp2.1/List_Arrays.runtimeconfig.dev.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/bin/Debug/netcoreapp2.1/List_Arrays.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/bin/Debug/netcoreapp2.1/List_Arrays.pdb
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.csprojAssemblyReference.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.csproj.CoreCompileInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.AssemblyInfoInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.AssemblyInfo.cs
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/list&Arrays/List_Arrays/obj/Debug/netcoreapp2.1/List_Arrays.pdb

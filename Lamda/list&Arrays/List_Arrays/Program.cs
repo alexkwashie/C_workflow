@@ -37,6 +37,9 @@ namespace List_Arrays
             //Remove at the index
             list.RemoveAt(index);
 
+            //Using Lambda in lists
+            list.ForEach(i => Console.WriteLine(i));
+
         }
     }
 }

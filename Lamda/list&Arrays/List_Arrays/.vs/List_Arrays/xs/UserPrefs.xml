@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{D0818337-F264-4DDF-9273-BC55B8B52085}|Default">
-  <MonoDevelop.Ide.ItemProperties.List__Arrays FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.List__Arrays PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="9" Column="1" />
+      <File FileName="Program.cs" Line="24" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
