@@ -1,0 +1,11 @@
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/bin/Debug/netcoreapp2.1/Enamss.deps.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/bin/Debug/netcoreapp2.1/Enamss.runtimeconfig.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/bin/Debug/netcoreapp2.1/Enamss.runtimeconfig.dev.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/bin/Debug/netcoreapp2.1/Enamss.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/bin/Debug/netcoreapp2.1/Enamss.pdb
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.csprojAssemblyReference.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.csproj.CoreCompileInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.AssemblyInfoInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.AssemblyInfo.cs
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/Enamss/obj/Debug/netcoreapp2.1/Enamss.pdb
