@@ -9,3 +9,14 @@
 /Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/RandomT/obj/Debug/netcoreapp2.1/RandomT.AssemblyInfo.cs
 /Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/RandomT/obj/Debug/netcoreapp2.1/RandomT.dll
 /Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/RandomT/obj/Debug/netcoreapp2.1/RandomT.pdb
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\bin\Debug\netcoreapp2.1\RandomT.deps.json
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\bin\Debug\netcoreapp2.1\RandomT.runtimeconfig.json
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\bin\Debug\netcoreapp2.1\RandomT.runtimeconfig.dev.json
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\bin\Debug\netcoreapp2.1\RandomT.dll
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\bin\Debug\netcoreapp2.1\RandomT.pdb
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.csprojAssemblyReference.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.csproj.CoreCompileInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.AssemblyInfoInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.AssemblyInfo.cs
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.dll
+C:\Users\One\Desktop\C_workflow\Lamda\RandomT\obj\Debug\netcoreapp2.1\RandomT.pdb
