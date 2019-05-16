@@ -1,11 +1,11 @@
-﻿<Properties StartupConfiguration="{A60C7B42-766C-403C-AD83-5E06152DC76D}|Default">
+﻿<Properties StartupConfiguration="{A016041B-FA0D-4F2E-B3F4-EF39A43E1426}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="28" Column="1" />
+      <File FileName="Program.cs" Line="10" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MathClass PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.RandomT FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
