@@ -1,0 +1,11 @@
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/bin/Debug/netcoreapp2.1/MathClass.deps.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/bin/Debug/netcoreapp2.1/MathClass.runtimeconfig.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/bin/Debug/netcoreapp2.1/MathClass.runtimeconfig.dev.json
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/bin/Debug/netcoreapp2.1/MathClass.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/bin/Debug/netcoreapp2.1/MathClass.pdb
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.csprojAssemblyReference.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.csproj.CoreCompileInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.AssemblyInfoInputs.cache
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.AssemblyInfo.cs
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.dll
+/Users/alexkwashie/Desktop/C_workflow/Lamda/MathClass/obj/Debug/netcoreapp2.1/MathClass.pdb

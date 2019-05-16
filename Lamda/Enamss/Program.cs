@@ -2,11 +2,11 @@
 
 namespace Enamss
 {
-
+   //Enums are used to keep an array consistent
 
     enum Day { Mo, Tu, We, Th, Fr, Sa, Su}
 
-    enum Month { Jan, Feb, Mar, Apr, May, Jun, Juy, Aug, Sept, Nov, Dec}
+    enum Month { Jan = 1 , Feb, Mar, Apr, May, Jun, Juy, Aug, Sept, Nov, Dec}
 
     class Program
     {
@@ -22,12 +22,17 @@ namespace Enamss
 
             Console.WriteLine(fr == a);
             Console.WriteLine((int)Day.Th);
+
+
             Console.WriteLine(jan);
 
 
+            Month feb = Month.Feb;
+
+            Console.WriteLine((int)Month.Apr);
 
 
-
+            Console.WriteLine(feb); 
             Console.Read();
         }
     }
