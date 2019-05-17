@@ -1,0 +1,11 @@
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\bin\Debug\netcoreapp2.1\DateTime.deps.json
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\bin\Debug\netcoreapp2.1\DateTime.runtimeconfig.json
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\bin\Debug\netcoreapp2.1\DateTime.runtimeconfig.dev.json
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\bin\Debug\netcoreapp2.1\DateTime.dll
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\bin\Debug\netcoreapp2.1\DateTime.pdb
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.csprojAssemblyReference.cache
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.csproj.CoreCompileInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.AssemblyInfoInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.AssemblyInfo.cs
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.dll
+C:\Users\One\Desktop\C_workflow\Lamda\DateTime\DateTime\obj\Debug\netcoreapp2.1\DateTime.pdb
