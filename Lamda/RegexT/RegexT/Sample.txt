@@ -31,14 +31,19 @@ Ms Smith
 Ms Jackson
 
 // Challenge - find website links
-https://(www.)?tutorials.eu
+Ans: https://(www.)?tutorials.eu
+Ans: https?://(www.)?(\w+)(\.\w+)
 https://www.tutorials.eu
 https://tutorials.eu
 http://www.tutorials.eu
 http://tutorials.eu
 
+Emails:- Ans: (\w+)(\W?)(\w+)@\w+\.\w+(\W?)\w+
 test@test.com
-
+alex.kwash@hotmal.com
+kev@ind.cod
+si_sr_@fd.de.ex
+frenchfr@officialngentot.gq
 
 MetaCharacters (Need to be escaped):
 .[{()\^$|?*+

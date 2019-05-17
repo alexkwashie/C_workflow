@@ -1,0 +1,11 @@
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\bin\Debug\netcoreapp2.1\RegexT.deps.json
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\bin\Debug\netcoreapp2.1\RegexT.runtimeconfig.json
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\bin\Debug\netcoreapp2.1\RegexT.runtimeconfig.dev.json
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\bin\Debug\netcoreapp2.1\RegexT.dll
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\bin\Debug\netcoreapp2.1\RegexT.pdb
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.csprojAssemblyReference.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.csproj.CoreCompileInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.AssemblyInfoInputs.cache
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.AssemblyInfo.cs
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.dll
+C:\Users\One\Desktop\C_workflow\Lamda\RegexT\RegexT\obj\Debug\netcoreapp2.1\RegexT.pdb
