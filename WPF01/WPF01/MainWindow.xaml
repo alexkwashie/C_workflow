@@ -6,17 +6,29 @@
         xmlns:local="clr-namespace:WPF01"
         mc:Ignorable="d"
         Title="HMO Clinic Application" Height="450" Width="700">
-    <Grid Margin="0,0,2,-4" RenderTransformOrigin="0.505,0.699">
-        <TextBlock HorizontalAlignment="Left" Margin="298,188,0,0" TextWrapping="Wrap" Text="Hello, Alexander" VerticalAlignment="Top" Height="33" Width="90" RenderTransformOrigin="0.5,0.5">
-            <TextBlock.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="0"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </TextBlock.RenderTransform>
-        </TextBlock>
+    
+<!--
+        <Button Content="Click me" Height="50" Width="100" Margin="24,36,566,337"></Button>
+        <Button Content="Official" Margin="304,211,310,179"  FontSize="20" BorderBrush="Aquamarine" RenderTransformOrigin="0.513,0.515">
+            
+        </Button>
+  -->
+    
+    <!--this whole file is known as a logical Tree-->
+    
+        <StackPanel>
+        <!-- stackpanel- hold what appears in the window like a <div> --> 
 
-    </Grid>
+            <TextBlock HorizontalAlignment="Center" Margin="30"><Run Text="Hello World"/></TextBlock>
+
+        <ListBox Height="100" Width="500"> <!--List box-->
+            <ListBoxItem Content="Item 1"></ListBoxItem>
+            <ListBoxItem Content="Item 1"></ListBoxItem>
+            <ListBoxItem Content="Item 1"></ListBoxItem>
+        </ListBox>
+
+        <Button Content="Submit" Click="Button_Click"></Button>
+
+    </StackPanel>
+   
 </Window>
