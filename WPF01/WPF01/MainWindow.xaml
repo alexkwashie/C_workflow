@@ -27,7 +27,33 @@
             <ListBoxItem Content="Item 1"></ListBoxItem>
         </ListBox>
 
-        <Button Content="Submit" Click="Button_Click"></Button>
+        <!--Button creates a method in the cs file-->
+        <!--Direct Button-->
+        <Button Content="Submit" Click="Button_Click" Width="90" Margin="15"></Button>
+
+        <Button Content="Clicker1" Click="Button_Click" Width="90" Margin="15"></Button>
+            
+        <!--Bubbling Event-->
+        <Button Content="Bubble" MouseUp="Left_Button_Mouse" Width="50"></Button>
+
+        <!--Tunneling Event-->
+        <Button Content="Tunneling" PreviewMouseUp="Button_Mouse" Width="50"></Button>
+
+
+
+        <!--WROKING ON GRID-->
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <!--can use * or 3*/2* to share space between both buttons-->
+                    <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0">First Column</Button><!--First column from the right-->
+            <Button Grid.Column="1">Secong Column</Button>
+            
+            
+        </Grid>
 
     </StackPanel>
    
