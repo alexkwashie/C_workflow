@@ -22,9 +22,11 @@ namespace Linq1
         {
             Console.WriteLine("Odd numbers:");
 
+            //Linq1 is used to write query like code to perform and select a computation
+
             IEnumerable<int> oddNumber = from num in ar where num % 2 != 0 select num;
 
-
+            //Loop through Linq generated output
             foreach (int i in oddNumber)
             {
                 Console.WriteLine(i);
