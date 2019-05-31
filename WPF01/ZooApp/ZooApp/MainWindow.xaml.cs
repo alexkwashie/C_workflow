@@ -77,5 +77,57 @@ namespace ZooApp
             }
 
         }
+
+
+        private void ShowAssociated()
+        {
+
+            try
+            {
+                string query = "select * from Animal a" +
+                    "inner join ZooAnimal za on a.Id = Za.AnimalId " +
+                    "where za.ZooId = @ZooId";
+
+                SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
+
+                // Use (SqlDataAdapter) to create a connection to the database table to run query
+                // the SqlDataAdapter can also be imagined like an interface to amke tables usable by C# objects
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(sqlCommand);
+
+                using (sqlDataAdapter)
+                {
+                    sqlCommand.Parameters.AddWithValue("@ZooId", listZoos.SelectedValue);
+
+                    DataTable animalTable = new DataTable();
+
+                    sqlDataAdapter.Fill(animalTable);
+
+                    //Which information of the Table in Datatable should be shown in our Listbox?
+                    AssAnimals.DisplayMemberPath = "Name";
+
+                    //Which Value should be delivered when an item from our listbox is selected?
+                    AssAnimals.SelectedValuePath = "Id";
+
+                    //The reference to the Data the Listbox should populate
+                    AssAnimals.ItemsSource = animalTable.DefaultView;
+                }
+
+            }
+
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+
+            }
+           
+        }
+
+        private void ListZoos_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(listZoos.SelectedValue.ToString());
+
+        }
+
+        
     }
 }
