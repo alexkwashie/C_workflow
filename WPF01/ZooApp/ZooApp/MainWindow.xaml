@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:ZooApp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Margin="0,0,2,2">
+        <Label Content="Zoo list&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="34" Width="76" FontSize="10"/>
+        <ListBox Name ="listZoos" HorizontalAlignment="Left" Height="202" Margin="10,33,0,0" VerticalAlignment="Top" Width="126"/>
+
     </Grid>
 </Window>
