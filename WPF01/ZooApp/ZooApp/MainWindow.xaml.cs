@@ -41,6 +41,7 @@ namespace ZooApp
             ShowZoos();
         }
 
+
         private void ShowZoos()
         {
 
@@ -85,7 +86,7 @@ namespace ZooApp
             try
             {
                 string query = "select * from Animal a" +
-                    "inner join ZooAnimal za on a.Id = Za.AnimalId " +
+                    "inner join ZooAnimal za on a.Id = za.AnimalId " +
                     "where za.ZooId = @ZooId";
 
                 SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
@@ -103,13 +104,13 @@ namespace ZooApp
                     sqlDataAdapter.Fill(animalTable);
 
                     //Which information of the Table in Datatable should be shown in our Listbox?
-                    AssAnimals.DisplayMemberPath = "Name";
+                    assAnimals.DisplayMemberPath = "Name";
 
                     //Which Value should be delivered when an item from our listbox is selected?
-                    AssAnimals.SelectedValuePath = "Id";
+                    assAnimals.SelectedValuePath = "Id";
 
                     //The reference to the Data the Listbox should populate
-                    AssAnimals.ItemsSource = animalTable.DefaultView;
+                    assAnimals.ItemsSource = animalTable.DefaultView;
                 }
 
             }
@@ -119,15 +120,16 @@ namespace ZooApp
                 MessageBox.Show(e.ToString());
 
             }
-           
+
         }
+
+
 
         private void ListZoos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            MessageBox.Show(listZoos.SelectedValue.ToString());
-
+            ShowAssociated();
         }
 
-        
+     
     }
 }
