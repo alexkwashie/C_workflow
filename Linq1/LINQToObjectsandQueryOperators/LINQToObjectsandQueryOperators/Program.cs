@@ -31,6 +31,7 @@ namespace LINQToObjectsandQueryOperators
         public List<Student> Student;
 
 
+
         //constructor
         public UniversityManager()
         {
@@ -77,6 +78,19 @@ namespace LINQToObjectsandQueryOperators
             {
                 student.Print();
             }
+
+        }
+
+
+        //All Students from Princeton
+        public void PrincetonStudent()
+        {
+            IEnumerable<Student> princetionStu = from student in Student
+                                                 join university in universities on
+                                                 student.UniId equals university.Id
+                                                 where university.Name == "Princeton"
+                                                 select student;
+
         }
     }
 
