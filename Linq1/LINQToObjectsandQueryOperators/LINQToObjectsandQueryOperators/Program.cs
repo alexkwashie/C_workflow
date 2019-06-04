@@ -13,15 +13,62 @@ namespace LINQToObjectsandQueryOperators
             //Create a new object and initiate it
             UniversityManager meo = new UniversityManager();
 
-            meo.maleStudents();
+            //meo.maleStudents();
 
-            meo.SortStudentsByAge();
+            //meo.SortStudentsByAge();
+
+            //meo.PrincetonStudent();
+
+
+
+
+
+            int[] someInts = { 12, 23, 31, 5, 10, 22, 9 };
+
+            //Orders by smallest to highest
+            IEnumerable<int> straights = from i in someInts orderby i select i;
+
+            //Orders by highest to smallest (reversed)
+            IEnumerable<int> reversedNums = straights.Reverse();
+            //#OR
+            IEnumerable<int> reversedNum2 = from i in someInts orderby i descending select i;
+
+
+            foreach (int item in reversedNums)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            meo.StudentandUniversiyColloection();
 
             Console.ReadKey();
 
+                                 
+
+            /*
+            Console.WriteLine("Enter Student ID");
+            
+            try
+            {
+                int IDD = Convert.ToInt32(Console.ReadLine());
+
+                meo.StudentUniId(IDD);
+                
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Wrong Value");
+            }
+
+            Console.ReadKey();
+            */
+
+
         }
     }
-
+     
 
 
     //Step 3
@@ -91,7 +138,54 @@ namespace LINQToObjectsandQueryOperators
                                                  where university.Name == "Princeton"
                                                  select student;
 
+            foreach (Student student in princetionStu)
+            {
+                //the print method is From the Student Class
+                student.Print();
+            }
+
+        
+
         }
+
+
+               
+        
+        public void StudentUniId(int Id)
+        {
+
+            IEnumerable<Student> studentID = from student in Student
+                                                 join university in universities on
+                                                 student.UniId equals university.Id
+                                                 where university.Id == Id
+                                                 select student;
+
+            foreach (Student student in studentID)
+            {
+                //the print method is From the Student Class
+                student.Print();
+            }
+
+        }
+
+
+        public void StudentandUniversiyColloection()
+        {
+            var newCollection = from student in Student
+                                 join university in universities on student.UniId equals university.Id
+                                 orderby student.Name
+                                 select new { studentName = student.Name, universityName = university.Name}; //Create new variable to hold names
+
+            foreach (var student in newCollection)
+            {
+                Console.WriteLine("Student name is: {0} and University Name is: {1}", student.studentName, student.universityName);
+            }
+        }
+
+
+
+
+
     }
 
     
